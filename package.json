@@ -1,6 +1,6 @@
 {
     "name": "@finale-lua/eslint-config",
-    "version": "0.8.12",
+    "version": "0.8.32",
     "description": "an eslint config for my personal projects",
     "homepage": "https://github.com/finale-lua/eslint-config#readme",
     "bugs": {
@@ -52,11 +52,14 @@
     },
     "devDependencies": {
         "@finale-lua/semantic-release-config": "^1.1.3",
-        "@finale-lua/tsconfig": "^0.1.1",
+        "@finale-lua/tsconfig": "^0.1.2",
         "@semantic-release/changelog": "^6.0.0",
         "@semantic-release/git": "^10.0.0",
         "eslint": "^8.0.0",
         "semantic-release": "^19.0.0",
         "typescript": "^4.2.4"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
